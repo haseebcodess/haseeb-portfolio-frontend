@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { useReveal } from '../hooks/useReveal';
 import { skills, projects } from '../data/portfolio';
-import profileImg from '../assets/profile.jpg';
+import profileImg from '../assets/profile.webp';
 import SEO from '../components/SEO';
 import './Home.css';
 
