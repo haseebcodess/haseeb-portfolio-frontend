@@ -1,6 +1,7 @@
 import React from 'react';
 import { useReveal } from '../hooks/useReveal';
 import { education, proficiency } from '../data/portfolio';
+import SEO from '../components/SEO';
 import './About.css';
 
 export default function About() {
@@ -8,6 +9,12 @@ export default function About() {
 
   return (
     <main className="page-wrap">
+      <SEO
+        title="About | Muhammad Haseeb Ur Rehman"
+        description="Learn about Muhammad Haseeb Ur Rehman — a self-taught MERN Stack Developer from Lahore, Pakistan studying CS at University of the Punjab."
+        path="/about"
+        keywords="about haseeb developer, Muhammad Haseeb Ur Rehman, CS student Punjab University, self-taught developer Pakistan"
+      />
       <div className="container">
         <header className="page-header reveal" ref={r1}>
           <span className="sec-label">// about me</span>

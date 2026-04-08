@@ -1,6 +1,7 @@
 import React from 'react';
 import { useReveal } from '../hooks/useReveal';
 import { skills } from '../data/portfolio';
+import SEO from '../components/SEO';
 import './Skills.css';
 
 function SkillPill({ skill }) {
@@ -40,6 +41,12 @@ export default function Skills() {
   const headerRef = useReveal();
   return (
     <main className="page-wrap">
+      <SEO
+        title="Skills | React, Node.js, MongoDB — Haseeb Developer"
+        description="Technical skills of Muhammad Haseeb Ur Rehman — React.js, Node.js, Express.js, MongoDB, JavaScript, HTML5, CSS3, REST APIs, Git and more."
+        path="/skills"
+        keywords="MERN stack skills, React developer skills, Node.js developer Pakistan, MongoDB developer, JavaScript developer Lahore"
+      />
       <div className="container">
         <header className="page-header reveal" ref={headerRef}>
           <span className="sec-label">// tech stack</span>

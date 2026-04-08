@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 import { useReveal } from '../hooks/useReveal';
+import SEO from '../components/SEO';
 import './Contact.css';
 
 const INIT = { name: '', email: '', subject: '', message: '' };
@@ -48,8 +49,7 @@ export default function Contact() {
     if (Object.keys(errs).length) { setErrors(errs); return; }
     setStatus('loading'); setApiErr('');
     try {
-      const API = import.meta.env.VITE_API_URL || 'http://localhost:5000';
-      await axios.post(`${API}/api/contact`, form);
+      await axios.post('/api/contact', form);
       setStatus('success'); setForm(INIT);
     } catch (err) {
       setStatus('error');
@@ -59,6 +59,12 @@ export default function Contact() {
 
   return (
     <main className="contact-page">
+      <SEO
+        title="Contact | Hire Haseeb Ur Rehman — MERN Stack Developer"
+        description="Get in touch with Muhammad Haseeb Ur Rehman. Available for freelance projects, internships and full-time roles in Lahore, Pakistan."
+        path="/contact"
+        keywords="hire MERN stack developer Lahore, contact haseeb developer, freelance web developer Pakistan, web developer for hire Lahore"
+      />
       <div className="contact-hero">
         <div className="container">
           <div className="reveal" ref={r1}>

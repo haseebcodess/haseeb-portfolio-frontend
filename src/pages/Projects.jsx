@@ -3,6 +3,7 @@ import { useReveal } from '../hooks/useReveal';
 import { projects } from '../data/portfolio';
 import ProjectCard from '../components/ProjectCard';
 import ProjectModal from '../components/ProjectModal';
+import SEO from '../components/SEO';
 import './Projects.css';
 
 const CATS = [
@@ -29,6 +30,12 @@ export default function Projects() {
   return (
     <main className="page-wrap">
       <div className="container">
+        <SEO
+          title="Projects | Full Stack, Frontend & Backend — Haseeb"
+          description="Portfolio projects by Muhammad Haseeb Ur Rehman — Weather App, Chat App, CRUD App, Password Generator, RJ Cafe Website and more. Built with React, Node.js, MongoDB."
+          path="/projects"
+          keywords="haseeb codess projects, MERN stack projects, React projects Pakistan, full stack projects, weather app, chat app socket.io, CRUD app MongoDB"
+        />
         <header className="page-header reveal" ref={headerRef}>
           <span className="sec-label">// projects</span>
           <h1 className="sec-title">Things I've built</h1>

@@ -2,7 +2,8 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { useReveal } from '../hooks/useReveal';
 import { skills, projects } from '../data/portfolio';
-import profileImg from '../assets/profile.webp';
+import profileImg from '../assets/profile.jpg';
+import SEO from '../components/SEO';
 import './Home.css';
 
 function Section({ children, className = '' }) {
@@ -18,6 +19,12 @@ export default function Home() {
 
   return (
     <main className="home">
+      <SEO
+        title="Muhammad Haseeb Ur Rehman | MERN Stack Developer Lahore"
+        description="Self-taught MERN Stack Developer from Lahore, Pakistan. Building full-stack web apps with React, Node.js, Express and MongoDB. Available for freelance and internships."
+        path="/"
+        keywords="Muhammad Haseeb Ur Rehman, haseeb codess, MERN stack developer Lahore, React developer Pakistan, full stack developer Lahore, web developer Pakistan, haseeb portfolio"
+      />
 
       {/* HERO */}
       <section className="hero">
