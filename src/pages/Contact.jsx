@@ -49,7 +49,8 @@ export default function Contact() {
     if (Object.keys(errs).length) { setErrors(errs); return; }
     setStatus('loading'); setApiErr('');
     try {
-      await axios.post('/api/contact', form);
+      const API = import.meta.env.VITE_API_URL || 'http://localhost:5000';
+      await axios.post(`${API}/api/contact`, form);
       setStatus('success'); setForm(INIT);
     } catch (err) {
       setStatus('error');
