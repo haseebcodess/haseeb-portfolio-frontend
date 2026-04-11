@@ -13,7 +13,7 @@ export default function About() {
         title="About | Muhammad Haseeb Ur Rehman"
         description="Learn about Muhammad Haseeb Ur Rehman — a self-taught MERN Stack Developer from Lahore, Pakistan studying CS at University of the Punjab."
         path="/about"
-        keywords="about haseeb developer, Muhammad Haseeb Ur Rehman, CS student Punjab University, self-taught developer Pakistan"
+        keywords="about haseeb portfolio, haseeb portfolio, haseeb codess, haseeb codess portfolio, freelancer, self-taught MERN stack developer Lahore"
       />
       <div className="container">
         <header className="page-header reveal" ref={r1}>

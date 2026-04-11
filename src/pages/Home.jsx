@@ -23,7 +23,7 @@ export default function Home() {
         title="Muhammad Haseeb Ur Rehman | MERN Stack Developer Lahore"
         description="Self-taught MERN Stack Developer from Lahore, Pakistan. Building full-stack web apps with React, Node.js, Express and MongoDB. Available for freelance and internships."
         path="/"
-        keywords="Muhammad Haseeb Ur Rehman, haseeb codess, MERN stack developer Lahore, React developer Pakistan, full stack developer Lahore, web developer Pakistan, haseeb portfolio"
+        keywords="haseeb portfolio, portfolio, haseeb codess, haseeb codess portfolio, freelancer, MERN stack developer Lahore, full stack developer Lahore, freelance web developer"
       />
 
       {/* HERO */}

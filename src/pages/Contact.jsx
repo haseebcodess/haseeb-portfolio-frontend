@@ -64,7 +64,7 @@ export default function Contact() {
         title="Contact | Hire Haseeb Ur Rehman — MERN Stack Developer"
         description="Get in touch with Muhammad Haseeb Ur Rehman. Available for freelance projects, internships and full-time roles in Lahore, Pakistan."
         path="/contact"
-        keywords="hire MERN stack developer Lahore, contact haseeb developer, freelance web developer Pakistan, web developer for hire Lahore"
+        keywords="haseeb portfolio, haseeb codess portfolio, hire haseeb ur rehman, freelancer web developer, contact haseeb developer, freelance MERN stack developer"
       />
       <div className="contact-hero">
         <div className="container">

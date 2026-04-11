@@ -45,7 +45,7 @@ export default function Skills() {
         title="Skills | React, Node.js, MongoDB — Haseeb Developer"
         description="Technical skills of Muhammad Haseeb Ur Rehman — React.js, Node.js, Express.js, MongoDB, JavaScript, HTML5, CSS3, REST APIs, Git and more."
         path="/skills"
-        keywords="MERN stack skills, React developer skills, Node.js developer Pakistan, MongoDB developer, JavaScript developer Lahore"
+        keywords="haseeb portfolio, haseeb codess portfolio, freelancer developer skills, MERN stack skills, React developer skills, portfolio skills"
       />
       <div className="container">
         <header className="page-header reveal" ref={headerRef}>

@@ -34,7 +34,7 @@ export default function Projects() {
           title="Projects | Full Stack, Frontend & Backend — Haseeb"
           description="Portfolio projects by Muhammad Haseeb Ur Rehman — Weather App, Chat App, CRUD App, Password Generator, RJ Cafe Website and more. Built with React, Node.js, MongoDB."
           path="/projects"
-          keywords="haseeb codess projects, MERN stack projects, React projects Pakistan, full stack projects, weather app, chat app socket.io, CRUD app MongoDB"
+          keywords="haseeb portfolio, haseeb codess portfolio, haseeb codess projects, portfolio projects, freelancer developer, MERN stack projects, React projects Pakistan"
         />
         <header className="page-header reveal" ref={headerRef}>
           <span className="sec-label">// projects</span>
