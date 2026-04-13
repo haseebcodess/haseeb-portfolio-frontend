@@ -51,7 +51,7 @@ export const projects = [
     stack: ['React', 'Node.js', 'Express', 'Cheerio', 'Axios'],
     images: [whc1, whc2, whc3, whc4],
     github: 'https://github.com/haseebcodess',
-    demo: null,
+    demo: 'https://websitehealthchecker.netlify.app',
     linkedin: 'https://linkedin.com/in/muhammad-haseeb-ur-rehman',
   },
   {
@@ -81,7 +81,7 @@ export const projects = [
     stack: ['Node.js', 'Socket.io', 'Express', 'React'],
     images: [ca1, ca2],
     github: 'https://github.com/haseebcodess',
-    demo: null,
+    demo: 'https://openchat-live.vercel.app',
     linkedin: 'https://linkedin.com/in/muhammad-haseeb-ur-rehman',
   },
   {
